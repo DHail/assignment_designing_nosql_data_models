@@ -8,10 +8,10 @@ I'll have one data model hold the SQL please
 1.
     {
       id = auto,
-      fname = "Frank",
-      lname = "Franken",
-      email = "some@thing.com",
-      password = ''*****',
+      fname,
+      lname,
+      email,
+      password,
       friends = [ids]
       profile = {
         location = {
@@ -53,18 +53,18 @@ Intermediate
     }
 
 3.
-{
-  student_id,
-  fname,
-  lname,
-  email,
-  password,
-  semesters = {
-    semester = {
-      classes = [{name: grade}, {name: grade}]
+    {
+      student_id,
+      fname,
+      lname,
+      email,
+      password,
+      semesters = {
+        semester = {
+          classes = [{name: grade}, {name: grade}]
+        }
+      }
     }
-  }
-}
 
 
 Advanced
@@ -79,7 +79,7 @@ Advanced
         qty,
         department = []
       }
-    ]
+    ],
 
     orders = [
       {
