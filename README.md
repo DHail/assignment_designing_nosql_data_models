@@ -5,7 +5,6 @@ Will Whitworth
 I'll have one data model hold the SQL please
 
 
-1.
     {
       id = auto,
       fname,
@@ -39,8 +38,9 @@ I'll have one data model hold the SQL please
     }
 
 
-Intermediate
-1.
+//Intermediate
+
+
     {
       year = {
         date(string rep of date) = {
@@ -52,7 +52,8 @@ Intermediate
       }
     }
 
-3.
+
+
     {
       student_id,
       fname,
@@ -67,9 +68,9 @@ Intermediate
     }
 
 
-Advanced
+//Advanced
 
-1.
+
     products = [
       {
         id,
@@ -93,7 +94,8 @@ Advanced
       }
     ]
 
-2.
+
+
 
     {
       id,
