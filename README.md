@@ -62,27 +62,47 @@ I'll have one data model hold the SQL please
 }
 
 4.
-products = {
-  id,
-  name,
-  description,
-  price = [{datetime: price}],
-  qty
-}
+products = [
+  {
+    id,
+    name,
+    description,
+    price = [{datetime, price}],
+    qty,
+    department = []
+  }
+]
 
 orders = [
   {
     id,
+    order_date,
+    ship_date,
+    received,
     customer_id,
     order_items = [],
-    
+    total
   }
 ]
 
-receipts
+5.
 
-
-
-
-
-
+{
+  id,
+  fname,
+  lname,
+  email,
+  password,
+  activity = [
+    {
+      date,
+      activity
+    }
+  ]
+  friends = [
+    {
+      id,
+      last_contact
+    }
+  ],
+}
